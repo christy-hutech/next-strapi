@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "indiavisions",
+  "info": {
+    "singularName": "indiavision",
+    "pluralName": "indiavisions",
+    "displayName": "indiavision"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "img3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_cards_1_cards_1s",
+  "info": {
+    "displayName": "Cards_1",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "richtext"
+    }
+  }
+}
